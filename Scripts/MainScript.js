@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 $('#FirstName').blur(CheckLength($('#FirstName').val()));  
-2	      
+	      
 });
 
 function login()
