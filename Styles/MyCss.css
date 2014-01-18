@@ -1,119 +1,92 @@
-html,body
-{
-	height:100%;
-	width:100%;
-	margin:0;
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
 }
 
-
-.imageDetails {
-  display: inline-block;  
-  margin: 0;
-  padding-left:1px; 
-  padding-top: 25px;  
-
+#MainContent {
+	padding-top: 20px;
+	padding-left:4px;
 }
 
-.imageDetails img, .imageDetails span {
-  display: block;
-  
-  
-}
-.captionDetails
-{
-
-width:188px;
-height:100px;
-background-color:#FFE0FF;
-margin: 0px;
-border: solid  1px #FF00EE;
- font-family:Geneva;
-font-size:20px;
-color: #0033CC;
-padding-top: 25px;
-cursor: pointer;
-text-decoration: underline;
-}
-.captionDetails:hover{
-	background-color:#FFFFCC ;
-	 border: solid 2px #FFFF00;
-	 font-size: 20px;
-	 font-family:"Felix Titling"
- 
-
-
+#MainContent div {
+	display: inline-block;
+	background-color: #FFFFCC;
+	padding-left: 1px;
 }
 
-.imageDetails span {
-  text-align:center; 
-  margin-top: 0px;
- 
-}
+.captionDetails {
 
-.imageDetails div
-{
-	width: 188px;
-    height: 250px;       
-    background-size:contain;    
-    background-size: cover;
-    background-repeat: no-repeat;
-	border: 1px solid #FFAAAA;
+	display: block;
+	margin-top: -10px;
+	height: 100px;
+	background-size: contain;
+	background-size: cover;
+	border: solid 1px #FF00EE;
+	font-family: Geneva;
+	font-size: 20px;
+	color: #0033CC;
+	cursor: pointer;
+	text-decoration: underline;
+}
+#MainContent div:hover {
+	background-color:#F0AD4E;
+	border: solid 2px #F0AD4E ;
 	
- }
- 
-.breakfastimageDetails div
- {
+	font-size: 20px;
+	font-family: "Felix Titling"
+}
+
+#MainContent div div {
+	width: 188px;
+	height: 250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #FFAAAA;
+}
+
+.breakfastimageDetails div {
 
 	width: 160px;
-    height: 170px;       
-    background-size:contain;    
-    background-size: cover;
-    background-repeat: no-repeat;
-     border: 1px solid #FFAAFF;
-     
- }
- 
-.breakfastimageDetails 
-  {
-  display: inline-block;  
-  margin: 0;
-  padding-left:1px;
-  padding-top:20px;
-  padding-right: 10px; 
-  
-
-  }
-  
-.breakfastimageDetails span
- {
-  text-align: center; 
-  margin-top: 0px;
- }
-  
-.breakfastimageDetails img, .breakfastimageDetails span
- {
-  display: block;
-  
- }
- 
-.breakfastcaptionDetails
-{
-width:160px;
-height:170px;
-background-color:#EBCCD1;
-margin: 0px;
-border: solid  1px #FFAAFF;
-font-family:"Courier New"
-font-size:18px;
-color:#0000CC;
-padding-top: 25px;
-cursor: pointer;
+	height: 170px;
+	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #FFAAFF;
 }
- 
- .breakfastcaptionDetails:hover
- {
- 	background-color:#00CC33; 
- 	text-decoration:underline;
- 	color:#FFFFAA;
-    
- }
+
+.breakfastimageDetails {
+	display: inline-block;
+	margin: 0;
+	padding-left: 1px;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+.breakfastimageDetails span {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.breakfastimageDetails img, .breakfastimageDetails span {
+	display: block;
+}
+
+.breakfastcaptionDetails {
+	width: 160px;
+	height: 170px;
+	background-color: #EBCCD1;
+	margin: 0px;
+	border: solid 1px #FFAAFF;
+	font-family: "Courier New";
+	font-size: 18px;
+	color: #0000CC;
+	padding-top: 25px;
+	cursor: pointer;
+}
+
+.breakfastcaptionDetails:hover {
+	background-color: #00CC33;
+	text-decoration: underline;
+	color: #FFFFAA;
+}

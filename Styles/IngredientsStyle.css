@@ -1,4 +1,26 @@
-body {
-
-}
 .IngredientsPage
+{
+	background-color: #FFF6F6;
+	border: 1px solid#550000;
+	padding-top: 20px
+}
+
+.IngredientsPage img, Ingredients span
+{
+display: inline-block;	
+}
+ .IngredientsPage div
+ {
+ 	width: 180px;
+ 	height: 200px;
+ 	
+ }
+.IngredientsPage span
+{
+	width: 180px;
+	height: 80px;
+	text-align: center;
+	margin: 0px;
+}
+.slideshow { height: 232px; width: 232px; margin: auto }
+.slideshow img { padding: 15px; border: 1px solid #ccc; background-color: #eee; }
