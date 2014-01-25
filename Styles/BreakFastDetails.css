@@ -1,0 +1,54 @@
+#BreakFastDetailsContent {
+	
+    padding-left:25px;
+	padding-top: 40px; 
+	
+}
+#BreakFastDetailsContent div {
+	display: inline-block;
+    
+   -webkit-box-shadow: 0 0 8px rgba(50,50,50,0.51);
+
+    box-shadow: 0 0 8px rgba(50,50,50,0.51);
+	
+	
+}
+
+
+#BreakFastDetailsContent div div {
+	width:150px;
+	height:165px;
+	
+}
+#BreakFastDetailsContent div div img {
+
+	width: 150px;
+	height: 165px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: contain;border: 
+	
+	
+}
+
+
+
+.BreakfastDetailsspan {
+	display:inline-block;
+	width:150px;
+    height:165px;
+	font-family:"Bodoni MT Condensed";
+	font-size: 25px;
+	color:#FF8800;
+	cursor: pointer;
+	text-align: center;
+	background-color: #FFFFAA;
+	
+}
+.BreakfastDetailsspan:hover{
+	
+	background-color: #818100;
+	
+	
+}
+

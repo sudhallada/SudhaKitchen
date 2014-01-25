@@ -3,90 +3,106 @@ html, body {
 	width: 100%;
 	margin: 0;
 }
-
-#MainContent {
-	padding-top: 20px;
-	padding-left:4px;
+#MainPageTitle {
+	background-color: #fff;
+	font-family: Brush Script MT;
+	font-size: 50px;
+	color: #FF0000;
+	text-align: center;
+	text-shadow: #80FF33 10px 10px 2px;
 }
 
-#MainContent div {
+#MainPageSearchTitle {
+
+	background-color: #5A5A5A;
+}
+#MainContentAdd {
+	padding-top: 10PX;
+	margin-bottom: 10px;
+	
+}
+#MainContentAdd div {
 	display: inline-block;
-	background-color: #FFFFCC;
-	padding-left: 1px;
+	background-color: #003D00;
+	margin-left:200px;
+}
+#MainContentAdd div div {
+	width: 750px;
+	height: 40px;
+ 
+    
+}
+
+#MainContentAdd did div img {
+
+	width: 750px;
+	height: 40px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#MainContentPage {
+	padding-top: 10px;
+	
+}
+
+#MainContentPage div {
+	display:inline-block;
+	
+	background-color:  #FFFFFF;
+
+ 
+
+box-shadow: 0px 0px 15px 0px rgba(119, 119, 119, 0.75);
+/*-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);*/
+-webkit-box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.75);
+margin: 6px;
+}
+
+#MainContentPage div:hover {
+    background-color: #FFD63D;
+	cursor: pointer;
+	
+}
+
+#MainContentPage div div {
+	width: 165px;
+	height: 200px;
+-
+
+}
+
+#MainContentPage div div img {
+	width: 165px;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: contain;
+   padding: 4px;
+   padding: 0;4px;
+   border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+border-bottom-left-radius: 4px;
 }
 
 .captionDetails {
-
 	display: block;
-	margin-top: -10px;
-	height: 100px;
-	background-size: contain;
-	background-size: cover;
-	border: solid 1px #FF00EE;
+	height: 60px;
 	font-family: Geneva;
 	font-size: 20px;
-	color: #0033CC;
-	cursor: pointer;
-	text-decoration: underline;
-}
-#MainContent div:hover {
-	background-color:#F0AD4E;
-	border: solid 2px #F0AD4E ;
-	
-	font-size: 20px;
-	font-family: "Felix Titling"
-}
-
-#MainContent div div {
-	width: 188px;
-	height: 250px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	border: 1px solid #FFAAAA;
-}
-
-.breakfastimageDetails div {
-
-	width: 160px;
-	height: 170px;
-	background-size: contain;
-	background-size: cover;
-	background-repeat: no-repeat;
-	border: 1px solid #FFAAFF;
-}
-
-.breakfastimageDetails {
-	display: inline-block;
-	margin: 0;
-	padding-left: 1px;
-	padding-top: 20px;
-	padding-right: 10px;
-}
-
-.breakfastimageDetails span {
+	color: #000000;
+	display: table-cell;
 	text-align: center;
-	margin-top: 0px;
+	
+
+	
 }
 
-.breakfastimageDetails img, .breakfastimageDetails span {
-	display: block;
+.captionDetails:hover {
+   
+    color:#fff; 
+	font-family: "Rage Italic";
+	font-size: 25px;
 }
 
-.breakfastcaptionDetails {
-	width: 160px;
-	height: 170px;
-	background-color: #EBCCD1;
-	margin: 0px;
-	border: solid 1px #FFAAFF;
-	font-family: "Courier New";
-	font-size: 18px;
-	color: #0000CC;
-	padding-top: 25px;
-	cursor: pointer;
-}
-
-.breakfastcaptionDetails:hover {
-	background-color: #00CC33;
-	text-decoration: underline;
-	color: #FFFFAA;
-}

@@ -1,0 +1,44 @@
+#BreckFastDetailsContent {
+	padding-left: 15px;
+	padding-top: 20px;
+	background-color: #600000;
+}
+#BreckFastDetailsContent div {
+	display: inline-block;
+	background-color: #FFCCFF;
+}
+
+#BreckFastDetailsContent div div {
+	width: 160px;
+	height: 170px;
+}
+
+#BreckFastDetailsContent div div img {
+
+	width: 160px;
+	height: 100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+.Breakfastspan {
+	display:block;
+	float:left;
+    width : 160px;
+	height: 170px;
+	background-color: #EBCCD1;
+	margin: 0px;
+	border: solid 1px #FFAAFF;
+	font-family: "Courier New";
+	font-size: 18px;
+	color: #0000CC;
+	cursor: pointer;
+}
+
+.Breakfastspan:hover {
+	background-color: #00CC33;
+	text-decoration: underline;
+	color: #FFFFAA;
+}
