@@ -24,29 +24,68 @@
 	</head>
 	<body >
 
-		<div id="MainPageTitle" style="height:12%;width:100%">
-			<b>SUAHAS KITCHEN</b>
+		<div id="fb-root"></div>
+		<script>
+			window.fbAsyncInit = function() {
+				FB.init({
+					appId : '{your-app-id}',
+					status : true,
+					xfbml : true
+				});
+			};
+			( function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) {
+						return;
+					}
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//connect.facebook.net/en_US/all.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+		</script>
+
+		<div id="MainPageTitle" style="height:15%;width:100%">
+           
+			<h1 style="float: left "><font color="green">S</font>udhasri</h1> &nbsp; <h1><font color="green">K</font>itchen </h1>
+			</div>
+			
+				
+				
+	
+
+		
+		<div id="MainPageSearchTitle" style="height:7%;width:100%">
+
+			<div id="SearchBtn" style="display:inline-block;width:800px;height: 50px;float: left">
+             <div id="homebtn" class="MainPageSearchTitlehomebtn">Home</div> 
+			</div>
+			<div id="MainPageSearchTitleLinks" style="display:inline-block; height:50px;width:400px;margin-top: 10px">
+				<div class="fb-like" data-send="true" data-width="450"  data-show-faces="true"> </div>
+			</div>
+			
 		</div>
 
-		<div id="MainPageSearchTitle" style="height:10%;width:100%">
-			<b>This is search title</b>
-		</div>
+		<div id="MainContentDetails" style="height:68%;width:100%;display:none"> </div>
 
-		<div id="MainContentDetails" style="height:68%;width:100%;display:none"></div>
+		<div id="MainContent" style="height:68%;width:100%;background-color: #fff ">
 
-		<div id="MainContent" style="height:68%;width:100%;background-color:#EBEBEB">
-
-			<div id="MainContentAdd" style="width: 100%;height: 18%">
+			<div id="MainContentAdd" style="height:17%;width: 100%">
 
 				<div id ="AddDiv">
 
 					<div id="MainContentAddImg">
-						<img src="Images/idliS.JPG">
 
+						<img src="Images/corn1.jpg">
+						<img src="Images/rice.jpg">
+						<img src="Images/bagiel.jpg">
+						<img src="Images/andhra.jpg">
+						<img src="Images/kaggi.jpg">
+						<img src="Images/nandhi.jpg">
 					</div>
+
 				</div>
 			</div>
-
 			<div id="MainContentPage" style="width: 100%;height: 50%">
 				<div id="BreakfastContent">
 					<div id="BreckFastContImgs">
@@ -107,10 +146,7 @@
 
 			</div>
 		</div>
-		<div style="height:10%;width:100%;background-color: #563D7C;">
-			
-			<fb:like href="http://www.fbrell.com/og/website/d6d2e12e7e3aee0f4ae4"></fb:like>
-			
+		<div id="TipContent" style="height:10%;width:100%;background-color: #563D7C;">
 
 			<b>This is Web Page tip of the day title</b>
 		</div>

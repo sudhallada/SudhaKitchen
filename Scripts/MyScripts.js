@@ -31,13 +31,25 @@ $(document).ready(function() {
 	$('#HelithyFoodContImgs').cycle({
 						fx : 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
 						delay:  -8000
-					});	
+					 });	
     	$('#MainContentAddImg').cycle({
 						fx : 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
 						delay:  -8000
-					});				
+					});	
 					
+					
+		$('#homebtn').click(function(){
+		 DisplayDiv("#MainContent");
+		HiddenDiv("#MainContentDetails");
+       $("#MainContent").load("SudhasKitchen/main.html");	
+		
+		});			
+					
+		
 	BreatkFastScripts();
+	
+
+
 
 });
 

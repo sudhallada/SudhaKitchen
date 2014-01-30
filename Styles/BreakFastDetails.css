@@ -1,53 +1,53 @@
 #BreakFastDetailsContent {
 	
-    padding-left:25px;
-	padding-top: 40px; 
-	
+margin-left: 10px;
+margin-top: 20px;
 }
+
 #BreakFastDetailsContent div {
 	display: inline-block;
+    margin-left: 10px;
     
-   -webkit-box-shadow: 0 0 8px rgba(50,50,50,0.51);
-
-    box-shadow: 0 0 8px rgba(50,50,50,0.51);
-	
 	
 }
 
 
-#BreakFastDetailsContent div div {
-	width:150px;
+#BreakFastDetailsContent div  div {
+	width:190px;
 	height:165px;
-	
-}
-#BreakFastDetailsContent div div img {
+	 
+	  
+	  border:solid 3px #fff;
+		-webkit-box-shadow: 0px 0px 12px 0px rgba(119, 119, 119, 0.75)
 
-	width: 150px;
+}
+#BreakFastDetailsContent div div  img {
+
+	width: 190px;
 	height: 165px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-size: contain;border: 
 	
-	
+
 }
 
 
 
 .BreakfastDetailsspan {
-	display:inline-block;
-	width:150px;
-    height:165px;
-	font-family:"Bodoni MT Condensed";
-	font-size: 25px;
-	color:#FF8800;
+	display:block;
+	width:190px;
+    height:100px;
+	color:#1296FF;
 	cursor: pointer;
 	text-align: center;
-	background-color: #FFFFAA;
-	
+	font-size: 17px;
+
+
 }
 .BreakfastDetailsspan:hover{
 	
-	background-color: #818100;
+ text-decoration: underline;
 	
 	
 }
