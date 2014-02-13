@@ -3,25 +3,29 @@
  */
 function BreatkFastScripts() {
 	$("#BreakfastContent").click(function() {
+
 		HiddenDiv("#MainContent");
 		DisplayDiv("#MainContentDetails");
-        HiddenDiv("#TipContent");
-        
+		HiddenDiv("#TipContent");
+
 		$("#MainContentDetails").load("DetailPages/BreakFastDetails.html #BreakFastDetailsContent", function() {
 
-			$("#RagIdliSpan").click(function() {
+			$("#IdliSpan").click(function() {
 
-				$("#MainContentDetails").load("DetailPages/IngredientsDetails.html", function() {
+				$("#MainContentDetails").load("DetailPages/IdliIngredientsDetails.html", function() {
 
 				});
-				
-			
-
 			});
+			$("#MasaladosaSpan").click(function() {
+
+				$("#MainContentDetails").load("DetailPages/MasalaDosaIngredientsDetails.html", function() {
+
+				});
+			});
+
+			
 		});
+
 	});
-		
-		
-	
-	
+
 }

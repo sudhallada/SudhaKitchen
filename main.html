@@ -16,15 +16,21 @@
 		<!--My Scripts -->
 		<script src="Scripts/MyScripts.js" type="text/javascript"></script>
 		<script src="Scripts/BreakFastScripts.js" type="text/javascript"></script>
+         <script src="Scripts/RiceItemDetailsScripts.js" type="text/javascript"></script>
+         <script src="Scripts/CurryDetailsScript.js" type="text/javascript"></script>
+        <script src="Scripts/ChutneyDetailsScript.js" type="text/javascript"></script>
+        <script src="Scripts/SpecialsDetailsScript.js" type="text/javascript"></script>
+         <script src="Scripts/TraditionalsScripts.js" type="text/javascript"></script>
+         <script src="Scripts/NonVegetarianScript.js" type="text/javascript"></script>
 
 		<!-- My Css -->
 		<link rel="stylesheet" type="text/css" href="Styles/MyCss.css"/>
-		<link rel="stylesheet" type="text/css" href="Styles/IngredientsStyle.css"/>
+		<link rel="stylesheet" type="text/css" href="Styles/IngredientsDetailsStyle.css"/>
 		<link rel="stylesheet" type="text/css" href="Styles/BreakFastDetails.css"/>
 	</head>
 	<body >
 
-		<div id="fb-root"></div>
+		<div id="fb-root"> </div>
 		<script>
 			window.fbAsyncInit = function() {
 				FB.init({
@@ -32,8 +38,7 @@
 					status : true,
 					xfbml : true
 				});
-			};
-			( function(d, s, id) {
+			}; ( function(d, s, id) {
 					var js, fjs = d.getElementsByTagName(s)[0];
 					if (d.getElementById(id)) {
 						return;
@@ -46,24 +51,25 @@
 		</script>
 
 		<div id="MainPageTitle" style="height:15%;width:100%">
-           
-			<h1 style="float: left "><font color="green">S</font>udhasri</h1> &nbsp; <h1><font color="green">K</font>itchen </h1>
-			</div>
-			
-				
-				
-	
 
-		
+			<h1 style="float: left "><font color="green">S</font>udhasri</h1> &nbsp; <h1><font color="green">K</font>itchen </h1>
+		</div>
+
 		<div id="MainPageSearchTitle" style="height:7%;width:100%">
 
-			<div id="SearchBtn" style="display:inline-block;width:800px;height: 50px;float: left">
-             <div id="homebtn" class="MainPageSearchTitlehomebtn">Home</div> 
+			<div id="SearchBtn" style="display:inline-block;width:750px;height: 50px;float: left">
+				<div id="homebtn" class="MainPageSearchTitlehomebtn">
+					Home
+				</div>
 			</div>
-			<div id="MainPageSearchTitleLinks" style="display:inline-block; height:50px;width:400px;margin-top: 10px">
+
+			<div id="MainPageSearchTitleLinks" style="display:inline-block; height:50px;width:600px;margin-top: 10px">
+               <div id="PrintBtn" style="float: left">
+				<a href="http://www.printfriendly.com" style="color:#6D9F00;text-decoration:none" class="printfriendly" onclick="window.print();return false;" title="Printer Friendly and PDF"><img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="http://cdn.printfriendly.com/button-print-grnw20.png" alt="Print Friendly and PDF"/></a>
+               </div>&nbsp;&nbsp;&nbsp;
 				<div class="fb-like" data-send="true" data-width="450"  data-show-faces="true"> </div>
 			</div>
-			
+
 		</div>
 
 		<div id="MainContentDetails" style="height:68%;width:100%;display:none"> </div>
@@ -89,66 +95,85 @@
 			<div id="MainContentPage" style="width: 100%;height: 50%">
 				<div id="BreakfastContent">
 					<div id="BreckFastContImgs">
-						<img src="Images/idliS.JPG">
-						<img src="Images/masaladosaS.JPG">
-						<img src="Images/ravadosa.jpg">
+						<img src="Images/Idli.jpg">
+						<img src="Images/masaladosa.jpg">
+						<img src="Images/voda2.jpg">
+						<img src="Images/uttappam.jpg">
+						<img src="Images/poori2.jpg" >
+						<img src="Images/ragiidli.jpg">
 					</div>
 					<span id="BreakFstSpan" class="captionDetails" >BreakFast Recipes</span>
 				</div>
-				<div>
+				<div id="RiceItemContent">
 					<div id="RiceItemsContImgs">
-						<img src="Images/idliS.JPG">
-						<img src="Images/masaladosaS.JPG">
-						<img src="Images/ravadosa.jpg">
+						<img src="Images/lemonrice.jpg">
+						<img src="Images/mintrice.jpg">
+						<img src="Images/tomatopulao.jpg">
+						<img src="Images/vegdambiriyani.jpg">
+						<img src="Images/TamarindRice.jpg" />
+						<img src="Images/corianderrice.jpg" />
 					</div>
 					<span id="RiceItemSpan" class="captionDetails" >Rice Item Recipes</span>
 				</div>
-				<div>
+				<div id="CurrysContent">
 					<div id="CurrysContImgs">
-						<img src="Images/idliS.JPG">
-						<img src="Images/masaladosaS.JPG">
-						<img src="Images/ravadosa.jpg">
+						<img src="Images/chennamasala.jpg">
+						<img src="Images/Carrotrasam.jpg">
+						<img src="Images/guttivankaya.jpg">
+						<img src="Images/jiddi.jpg">
+						<img src="Images/gobi.jpg">
+                        
 					</div>
 					<span id="CurrySpan" class="captionDetails" >Curry Recipes</span>
 				</div>
-				<div>
+				<div id="ChutneyContent">
 					<div id="ChutneysContImgs">
-						<img src="Images/idliS.JPG">
-						<img src="Images/masaladosaS.JPG">
-						<img src="Images/ravadosa.jpg">
+						<img src="Images/coconutchutney0.jpg">
+						<img src="Images/tomotochu.jpg">
+						<img src="Images/vullichu.jpg">
+						<img src="Images/RedCoconutChutney.jpg">
 					</div>
 					<span id="ChutneysSpan" class="captionDetails" >Chutney Recipes</span>
 				</div>
-				<div>
+				<div id="SpecialsContent">
 					<div id="SpecialsContImgs">
-						<img src="Images/idliS.JPG">
-						<img src="Images/masaladosaS.JPG">
-						<img src="Images/ravadosa.jpg">
+						<img src="Images/gobiman.jpg">
+						<img src="Images/VegNoodles.jpg">
+						<img src="Images/jelebi.jpg">
+						<img src="Images/pavbhaji.jpg">
+						<img src="Images/gobi65.jpg">
+						<img src="Images/papdichaat.jpg">
 					</div>
 					<span id="SpecialsSpan" class="captionDetails" >Special Dishes</span>
 				</div>
-				<div>
+				<div id="TraditionalsContent">
 					<div id="TraditionalContImgs">
-						<img src="Images/idliS.JPG">
-						<img src="Images/masaladosaS.JPG">
-						<img src="Images/ravadosa.jpg">
+						<img src="Images/murukulu.jpg">
+						<img src="Images/burulu.jpg">
+						<img src="Images/chekkalu.jpg">
+						<img src="Images/karapusa.jpg">
+						<img src="Images/gulabi.jpg">
+						
 					</div>
 					<span id="TraditionalSpan" class="captionDetails" >Traditional Foods</span>
 				</div>
-				<div>
-					<div id="HelithyFoodContImgs" >
-						<img src="Images/idliS.JPG">
-						<img src="Images/masaladosaS.JPG">
-						<img src="Images/ravadosa.jpg">
+				<div id ="NonVegContent">
+					<div id="NonVegFoodContImgs" >
+						<img src="Images/chickenbiryani.jpg">
+						<img src="Images/srimpbiriyani.jpg">
+						<img src="Images/shrimpfriedrice.jpg">
+						<img src="Images/chickencurry.jpg">
+						<img src="Images/shrimpfriedrice.jpg">
+						<img src="Images/eggpulusu.jpg">
 					</div>
-					<span id="HelithyFoodSpan" class="captionDetails" >Helithy Foods</span>
+					<span id="NonVrgetarianSpan" class="captionDetails" > NonVegetarians</span>
 				</div>
 
 			</div>
 		</div>
-		<div id="TipContent" style="height:10%;width:100%;background-color: #563D7C;">
+		<!-- <div id="TipContent" style="height:10%;width:100%;background-color: #563D7C;">
 
 			<b>This is Web Page tip of the day title</b>
-		</div>
+		</div> -->
 	</body>
 </html>
