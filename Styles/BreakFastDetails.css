@@ -2,6 +2,7 @@
 	
 margin-left: 98px;
 margin-top: 30px;
+padding-bottom: 10%;
 }
 
 .RecipesDetailsDiv {
@@ -36,26 +37,28 @@ margin-top: 30px;
 .RecipesDetailsSpan {
 	display:block;
 	width:190px;
-    height:75px;
+    height:65px;
 	color:#fff;
+    
+	font-family:"Arial Narrow";
+     
 	cursor: pointer;
-	text-align: center;
-	font-size: 17px;
+	 text-align:center;
+	font-size: 1.1em;
     margin-left:1px;
 	margin-bottom: 25px;
 	margin-top: -2px;
-	padding-top: 4px;
+	line-height:50px;
 	background-color:#fd562c;
-	text-decoration: underline;
-	
-    
-
 }
 .RecipesDetailsSpan:hover{
 	
- text-decoration: underline;
- background-color:#fff;
- color:#1296FF ;
+ 
+ background-color:#fd562c;
+ text-decoration:underline;
+ font-family:"Agency FB";
+ font-size:1.5em;
+ color:#fff ;
 
 	}
 

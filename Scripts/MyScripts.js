@@ -2,37 +2,37 @@ $(document).ready(function() {
 
 	$('#BreckFastContImgs').cycle({
 		fx : 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-		delay : -900
+		delay : 1000
 	});
 	$('#RiceItemsContImgs').cycle({
 
 		fx : 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-		delay : -900
+		delay : 1000
 	});
 	$('#CurrysContImgs').cycle({
 		fx : 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-		delay : -900
+		delay : 1000
 	});
 	$('#ChutneysContImgs').cycle({
 		fx : 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-		delay : -900
+		delay : 1000
 	});
 
 	$('#SpecialsContImgs').cycle({
 		fx : 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-		delay : -900
+		delay : 1000
 	});
 	$('#TraditionalContImgs').cycle({
 		fx : 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-		delay : -900
+		delay : 1000
 	});
 	$('#NonVegFoodContImgs').cycle({
 		fx : 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-		delay : -900
+		delay : 1000
 	});
 	$('#MainContentAddImg').cycle({
 		fx : 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-		delay : -900
+		delay : 1000
 	});
 
 	$('#homebtn').click(function() {

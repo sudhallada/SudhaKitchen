@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- <meta charset="utf-8"> -->
+		<title>SudhasriKitchen</title>
+
+		<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+		<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+		<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+		<script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+
+		<script src="jQueryAssets/jquery-ui-1.9.2.tabs.custom.min.js" type="text/javascript"></script>
+		<script src="Scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+		<script src="jQueryAssets/jquery.cycle.all.js" type="text/javascript"></script>
+
+		<!--My Scripts -->
+		<script src="Scripts/MyScripts.js" type="text/javascript"></script>
+		<script src="Scripts/BreakFastScripts.js" type="text/javascript"></script>
+		<script src="Scripts/RiceItemDetailsScripts.js" type="text/javascript"></script>
+		<script src="Scripts/CurryDetailsScript.js" type="text/javascript"></script>
+		<script src="Scripts/ChutneyDetailsScript.js" type="text/javascript"></script>
+		<script src="Scripts/SpecialsDetailsScript.js" type="text/javascript"></script>
+		<script src="Scripts/TraditionalsScripts.js" type="text/javascript"></script>
+		<script src="Scripts/NonVegetarianScript.js" type="text/javascript"></script>
+
+		<!-- My Css -->
+		<link rel="stylesheet" type="text/css" href="Styles/MyCss.css"/>
+		<link rel="stylesheet" type="text/css" href="Styles/IngredientsDetailsStyle.css"/>
+		<link rel="stylesheet" type="text/css" href="Styles/BreakFastDetails.css"/>
+	</head>
+	<body>
+		<div>
+			<div id="fb-root"> </div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div id="fb-root"> </div>
+<script>
+	( function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id))
+				return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk')); 
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+		
+			<div id="MainPageTitle" style="height:18%;width:100%">
+				<div class="TitleStyle">
+					<font color="green">S</font>udhasri<font color="green">K</font>itchen
+				</div>
+			</div>
+
+		
+			<div id="MainContentDetails" style="height:45%;width:100%;display:none"> </div>
+			<div id="FacebookLikeandShare" style="height: 5%;width: 100%;display: none;margin-top: 2%;margin-left: 2%">
+			   <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false" style="float: left;width: 7%"></div> 
+				<div class="fb-share-button" data-href="http://developers.facebook.com/docs/plugins/" data-type="button_count" style="float: left;width: 7%"></div>
+				<a href="http://www.printfriendly.com" style="color:#6D9F00;text-decoration:none" class="printfriendly" onclick="window.print();return false;" title="Printer Friendly and PDF">
+					<img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="http://cdn.printfriendly.com/button-print-grnw20.png" alt="Print Friendly and PDF"/></a>
+			</div>  
+			<div id="FacebookCommentDetails" style="height:10%;width: 100%;display: none;margin-left: 2%;margin-top: 2%;margin-bottom: 7%"> 
+				
+				<div class="fb-comments" data-href="http://example1.com/comments" data-numposts="5" data-colorscheme="light"> </div>
+				
+				</div>
+
+			<div id="MainContent" style="width:100%;height:60% ">
+
+				<div id="MainContentPage">
+					<div id="BreakfastContent">
+						<div id="BreckFastContImgs">
+							<img src="Images/Idli.jpg">
+							<img src="Images/masaladosa.jpg">
+							<img src="Images/voda2.jpg">
+							<img src="Images/uttappam.jpg">
+							<img src="Images/poori2.jpg" >
+							<img src="Images/ragiidli.jpg">
+						</div>
+						<span id="BreakFstSpan" class="captionDetails" >BreakFast Recipes</span>
+					</div>
+					<div id="RiceItemContent">
+						<div id="RiceItemsContImgs">
+							<img src="Images/lemonrice.jpg">
+							<img src="Images/mintrice.jpg">
+							<img src="Images/tomatopulao.jpg">
+							<img src="Images/vegdambiriyani.jpg">
+							<img src="Images/TamarindRice.jpg" />
+							<img src="Images/corianderrice.jpg" />
+						</div>
+						<span id="RiceItemSpan" class="captionDetails" >RiceItem Recipes</span>
+					</div>
+					<div id="CurrysContent">
+						<div id="CurrysContImgs">
+							<img src="Images/chennamasala.jpg">
+							<img src="Images/Carrotrasam.jpg">
+							<img src="Images/guttivankaya.jpg">
+							<img src="Images/jiddi.jpg">
+							<img src="Images/gobi.jpg">
+
+						</div>
+						<span id="CurrySpan" class="captionDetails" >Curry Recipes</span>
+					</div>
+					<div id="ChutneyContent">
+						<div id="ChutneysContImgs">
+							<img src="Images/coconutchutney0.jpg">
+							<img src="Images/tomotochu.jpg">
+							<img src="Images/vullichu.jpg">
+							<img src="Images/RedCoconutChutney.jpg">
+						</div>
+						<span id="ChutneysSpan" class="captionDetails" >Chutney Recipes</span>
+					</div>
+					<div id="SpecialsContent">
+						<div id="SpecialsContImgs">
+							<img src="Images/gobiman.jpg">
+							<img src="Images/VegNoodles.jpg">
+							<img src="Images/jelebi.jpg">
+							<img src="Images/pavbhaji.jpg">
+							<img src="Images/gobi65.jpg">
+							<img src="Images/papdichaat.jpg">
+						</div>
+						<span id="SpecialsSpan" class="captionDetails" >Special Dishes</span>
+					</div>
+					<div id="TraditionalsContent">
+						<div id="TraditionalContImgs">
+							<img src="Images/murukulu.jpg">
+							<img src="Images/burulu.jpg">
+							<img src="Images/chekkalu.jpg">
+							<img src="Images/karapusa.jpg">
+							<img src="Images/gulabi.jpg">
+
+						</div>
+						<span id="TraditionalSpan" class="captionDetails" >Traditional Foods</span>
+					</div>
+					<div id ="NonVegContent">
+						<div id="NonVegFoodContImgs" >
+							<img src="Images/chickenbiryani.jpg">
+							<img src="Images/srimpbiriyani.jpg">
+							<img src="Images/shrimpfriedrice.jpg">
+							<img src="Images/chickencurry.jpg">
+							<img src="Images/shrimpfriedrice.jpg">
+							<img src="Images/eggpulusu.jpg">
+						</div>
+						<span id="NonVrgetarianSpan" class="captionDetails" > NonVegetarians</span>
+					</div>
+				</div>
+			</div>
+
+			<div id="MainPageSearchTitle" style="height:12%;width:100%">
+				
+
+				<!-- <div id="SearchBtn" style="display:inline-block;width:10%;height: 5%;float: left">
+
+					<p class="PStyle">
+						Home
+					</p>
+
+				</div>
+
+				<div id="MainPageSearchTitleLinks" style="display:inline-block; height:5%;width:auto;padding-top: 20px">
+					<div id="PrintBtn" style="float: left">
+						<a href="http://www.printfriendly.com" style="color:#6D9F00;text-decoration:none" class="printfriendly" onclick="window.print();return false;" title="Printer Friendly and PDF"><img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="http://cdn.printfriendly.com/button-print-grnw20.png" alt="Print Friendly and PDF"/></a>
+					</div> -->
+					<!-- &nbsp;&nbsp;&nbsp; <div class="fb-like" data-send="true" data-width="450"  data-show-faces="true"></div> -->
+					
+					
+					
+				</div>
+			</div>
+	
+
+	</body>
+</html>
