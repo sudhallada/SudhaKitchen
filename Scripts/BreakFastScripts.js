@@ -4,17 +4,34 @@
 function BreatkFastScripts() {
 	$("#BreakfastContent").click(function() {
 
+		PreviousPage=HomePage;
+		CurrentPage="DetailPages/BreakFastDetails.html #BreakFastDetailsContent";
+		
+		
+			
+		NextPage="DetailPages/BreakFastDetails.html #BreakFastDetailsContent";			
+		
+		
+		
+		
+		if(NextPage)
+		
 		HiddenDiv("#MainContent");
 		DisplayDiv("#MainContentDetails");
-		
+		HiddenDiv("#CommentDiv");
 
 		$("#MainContentDetails").load("DetailPages/BreakFastDetails.html #BreakFastDetailsContent", function() {
 
 			$("#IdliSpan").click(function() {
 
 				$("#MainContentDetails").load("DetailPages/IdliIngredientsDetails.html", function() {
-                  DisplayDiv("#FacebookCommentDetails");
-                 DisplayDiv("#FacebookLikeandShare");
+                 DisplayDiv("#CommentDiv");
+                 
+                 
+                 PreviousPage="DetailPages/BreakFastDetails.html #BreakFastDetailsContent";
+                 CurrentPage="DetailPages/IdliIngredientsDetails.html";
+                 NextPage=CurrentPage;
+                 
 				});
 			});
 			$("#MasaladosaSpan").click(function() {

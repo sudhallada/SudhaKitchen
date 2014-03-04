@@ -30,13 +30,19 @@ html, body {
 
 #MainPageSearchTitle {
 
-	background:#FFAB73;
+	background:blanchedalmond;
 	position: fixed;
 	bottom: 0;
 	right: 0;
 	z-index: 9999;
 }
-
+#MainPageSearchTitle div img
+{
+	
+	float:right;
+	display:block;
+	cursor: pointer;
+}
 
 .PStyle {
 	line-height: 20px;
@@ -106,4 +112,5 @@ html, body {
 
 	color: #FF700A;
 	background-color: #FFFF8A;
+	
 }

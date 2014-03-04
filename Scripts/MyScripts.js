@@ -1,3 +1,10 @@
+
+	/*Previous Next Variables */
+	var CurrentPage;
+	var PreviousPage;
+	var NextPage;
+	var HomePage;
+
 $(document).ready(function() {
 
 	$('#BreckFastContImgs').cycle({
@@ -35,12 +42,67 @@ $(document).ready(function() {
 		delay : 1000
 	});
 
-	$('#homebtn').click(function() {
+
+
+	CurrentPage="SudhasKitchen/index.html";
+	HomePage="SudhasKitchen/index.html";
+	
+	if($(NextPage).val() != '' || $(PreviousPage).val() != '' ){
+		NextPage=HomePage;
+		PreviousPage=HomePage;			
+	};
+	
+	$('#imgHome').click(function() {
 		DisplayDiv("#MainContent");
 		HiddenDiv("#MainContentDetails");
-		$("#MainContent").load("SudhasKitchen/main.html");
+		$("#MainContent").load("SudhasKitchen/index.html");
+		CurrentPage="SudhasKitchen/index.html";
 
 	});
+
+	$("#imgPrevious").click(function(){
+		alert(PreviousPage);
+		if(PreviousPage="SudhasKitchen/index.html")
+		{
+			DisplayDiv("#MainContent");
+			HiddenDiv("#MainContentDetails");
+			HiddenDiv("#CommentDiv");
+			$("#MainContent").load(HomePage);
+		}
+		else
+		{
+			HiddenDiv("#MainContent");
+			DisplayDiv("#MainContentDetails");
+			HiddenDiv("#CommentDiv");
+			$("#MainContentDetails").load(PreviousPage);
+			
+		}
+		
+		
+	});
+	$("#imgNext").click(function(){
+		alert(NextPage);
+		if(NextPage=="SudhasKitchen/index.html")
+		{
+			
+			DisplayDiv("#MainContent");
+			HiddenDiv("#MainContentDetails");
+			$("#MainContent").load(HomePage);
+		}
+		else
+		{
+			
+			HiddenDiv("#MainContent");
+			DisplayDiv("#MainContentDetails");
+			$("#MainContentDetails").load(NextPage);
+			
+		}
+	});
+
+	/* previous next code */
+	
+	
+	
 
 	BreatkFastScripts();
 	RiceItemDetailsScripts();
